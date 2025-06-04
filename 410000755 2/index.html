@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>紅英的宮崎駿世界</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "DFKai-SB", "標楷體", serif;
+      background-color: #fdf4f0;
+      color: #4a3c3c;
+    }
+
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+      grid-template-columns: 250px 1fr;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100vh;
+    }
+
+    header {
+      grid-area: header;
+      background-image: url('ghibli-header.jpg');
+      background-size: cover;
+      color: white;
+      padding: 40px;
+      text-align: center;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    }
+
+    nav {
+      grid-area: nav;
+      background-color: #f8d2cd;
+      padding: 20px;
+    }
+
+    nav a {
+      display: block;
+      color: #984B4B;
+      margin: 10px 0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      grid-area: main;
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      background-color: #fff9f7;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .section img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    .lyrics-section {
+      margin-bottom: 40px;
+      background-color: #fceeee;
+      font-style: italic;
+      text-align: center;
+      line-height: 1.8;
+      padding: 30px 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.08);
+      color: #5a4444;
+    }
+
+    .lyrics-section h2 {
+      font-style: normal;
+      margin-bottom: 20px;
+      color: #b05c5c;
+    }
+
+    footer {
+      grid-area: footer;
+      text-align: center;
+      background-color: #e5b7b7;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      紅英的吉卜力人生 
+    </header>
+
+    <nav>
+      <a href="index.html">自我介紹</a>
+      <a href="experience2.html">我的經歷</a>
+      <a href="schedule2.html">我的課表</a>
+    </nav>
+
+    <main>
+      <div class="section">
+        <h2>🎀 關於我</h2>
+        <p>你好，我是紅英。喜歡音樂、閱讀與旅遊。從小就熱愛吉卜力電影，其中《神隱少女》與《霍爾的移動城堡》對我的成長歷程影響最深。</p>
+      </div>
+
+      <div class="section">
+        <h2>🧚‍♀️ 最愛的宮崎駿角色</h2>
+        <p>我最喜歡千尋，她的勇氣與自省是令人敬佩的。</p>
+        <img src="favorite charactor.jpg" alt="千尋與白龍的照片">
+      </div>
+
+      <!-- 歌詞區塊 -->
+      <div class="lyrics-section">
+        <h2>🙏 我們的祈禱</h2>
+        <p>
+          I pray that I don't give up, pray that I do my best<br>
+          Pray that I can lift up, pray my brother is blessed<br>
+          Prayin' for enough, pray Virgilio wins<br>
+          Pray I judge nobody and forgive me my sins<br>
+          I pray we make it, pray my friend will pull through<br>
+          Pray as I take it unto others, I do<br>
+          Prayin' on your love, we pray with every breath<br>
+          Though I'm in the valley of the shadow of death<br><br>
+
+          And so we pray for someone to come and show me the way<br>
+          And so we pray for some shelter and some records to play<br>
+          And so we pray, we'll be singin' "Baraye"<br>
+          Pray that we make it to the end of the day<br><br>
+
+          And so we pray, I know somewhere that Heaven is waitin'<br>
+          And so we pray, I know somewhere there's something amazin'<br>
+          And so we pray, I know somewhere we'll feel no pain<br>
+          Until we make it to the end of the day
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>📺 電影片段分享</h2>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </main>
+
+    <footer>
+      紅英的網站 © 2025
+    </footer>
+  </div>
+</body>
+</html>
